@@ -1,0 +1,84 @@
+* {
+    max-width: 1500px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+ }
+
+
+html{
+
+    background:linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.527)), url(ana.jpg) no-repeat;
+    background-size: cover;
+ }
+
+ body {
+
+    color: #443030;
+    font-family: Arial, san-serif;
+    min-width: 500px;
+    min-height: 100vh;
+ }
+ 
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+}
+div{
+    background-color: rgba(3, 82, 82, 0.411);
+    margin: 0;
+}
+input.po{
+    margin: 0 480px 20px 480px;
+    border-radius: 8px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+}
+input.pi{
+    margin: 5px 17px;
+    color: rgb(0, 0, 0);
+}
+section{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    padding: 40px 0 40px 0;
+    text-decoration: underline;
+ }
+ h4{
+    margin: 0 0 20px 0;
+ }
+textarea{
+    margin: 0 480px 8px 480px;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 40px;
+    padding: 3px;
+}
+
+input.f{
+    margin: 10px 580px;
+    border: #000 solid 1px;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 900;
+}
+input{
+    color: #000;
+    border: #000 solid 1px;
+    border-radius: 8px;
+
+}
+
+label{font-weight: 800;}
